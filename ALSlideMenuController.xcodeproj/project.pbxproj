@@ -13,6 +13,8 @@
 		C82E297B1E86C79E006FA90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82E297A1E86C79E006FA90A /* Assets.xcassets */; };
 		C82E297E1E86C79E006FA90A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82E297C1E86C79E006FA90A /* LaunchScreen.storyboard */; };
 		C82E29891E86C79E006FA90A /* ALSlideMenuControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82E29881E86C79E006FA90A /* ALSlideMenuControllerUITests.swift */; };
+		C82E29941E878E63006FA90A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82E29931E878E63006FA90A /* SecondViewController.swift */; };
+		C82E29961E879A3A006FA90A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82E29951E879A3A006FA90A /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C82E29841E86C79E006FA90A /* ALSlideMenuControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALSlideMenuControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82E29881E86C79E006FA90A /* ALSlideMenuControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALSlideMenuControllerUITests.swift; sourceTree = "<group>"; };
 		C82E298A1E86C79E006FA90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82E29931E878E63006FA90A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C82E29951E879A3A006FA90A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				C82E29731E86C79E006FA90A /* AppDelegate.swift */,
 				C82E29751E86C79E006FA90A /* ViewController.swift */,
+				C82E29931E878E63006FA90A /* SecondViewController.swift */,
+				C82E29951E879A3A006FA90A /* ThirdViewController.swift */,
 				C82E29771E86C79E006FA90A /* Main.storyboard */,
 				C82E297A1E86C79E006FA90A /* Assets.xcassets */,
 				C82E297C1E86C79E006FA90A /* LaunchScreen.storyboard */,
@@ -201,7 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82E29941E878E63006FA90A /* SecondViewController.swift in Sources */,
 				C82E29761E86C79E006FA90A /* ViewController.swift in Sources */,
+				C82E29961E879A3A006FA90A /* ThirdViewController.swift in Sources */,
 				C82E29741E86C79E006FA90A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
